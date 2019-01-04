@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>Hola</h1>
+        <% numbers = [*1..50] %>
+        <% numbers.each do |v| %>
+        <% if v%2 == 0 %>
+            <h3><%= "#{v} Soy Par!" %></h3>
+        <% else %>
+            <h3><%= "#{v} Soy Impar!" %></h3>
+        <% end %>
+        <% end %>
+</body>
+</html>
+
